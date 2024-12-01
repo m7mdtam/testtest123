@@ -1,0 +1,25 @@
+name: testtest
+description: Real-time AI Object Detection with TensorFlow Lite
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  tflite: ^1.1.2
+  image: ^3.3.0
+  permission_handler: ^11.3.1
+  path_provider: ^2.0.13
+  path:
+  
+  flutter_test:
+    sdk: flutter
+  
+  
+
+flutter:
+  assets:
+    - assets/model.tflite
+    - assets/labels.txt
